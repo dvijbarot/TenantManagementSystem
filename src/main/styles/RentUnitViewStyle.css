@@ -1,0 +1,72 @@
+.root-layout {
+	-fx-padding: 80 0 0 0;
+}
+
+.submit-btn {
+    -fx-text-fill: white;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 150px;
+      -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #3C6255 0%, #3C6255 100%),
+        #3C6255,
+        #61876E,
+        radial-gradient(center 50% 50%, radius 100%, #61876E, #3C6255);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    
+}
+
+
+.submit-btn:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #3C6255 0%, #674188 100%),
+        #3C6255,
+        #61876E,
+        radial-gradient(center 50% 50%, radius 100%, #61876E, #3C6255);
+}
+.submit-btn:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.go-home-btn{
+    -fx-text-fill: white;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 150px;
+      -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #674188 0%, #674188 100%),
+        #674188,
+        #A084DC,
+        radial-gradient(center 50% 50%, radius 100%, #A084DC, #674188);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    
+}
+
+
+.go-home-btn:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #674188 0%, #674188 100%),
+        #674188,
+        #A084DC,
+        radial-gradient(center 50% 50%, radius 100%, #A084DC, #674188);
+}
+.go-home-btn:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.not-present-text{
+	-fx-font-size:14px;
+	-fx-fill: "#D14D72";
+}
+.label{
+	-fx-font-size: 14px;
+}

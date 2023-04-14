@@ -1,0 +1,53 @@
+.button {
+    -fx-text-fill: white;
+    -fx-pref-height: 40.0px;
+    -fx-pref-width: 180.0px;
+      -fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 8.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #674188 0.0%, #674188 100.0%),
+        #674188,
+        #A084DC,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #A084DC, #674188);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    
+}
+
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #674188 0.0%, #674188 100.0%),
+        #674188,
+        #A084DC,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #A084DC, #674188);
+}
+.button:pressed {
+    -fx-padding: 10.0 15.0 13.0 15.0;
+    -fx-background-insets: 2.0 0.0 0.0 0.0,2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+
+.root-layout{
+	  -fx-padding: 30.0 0.0 0.0 0.0;
+}
+
+.application-title{
+	 -fx-font-weight: bold;
+    -fx-font-size: 30.0px;
+}
+.not-property-text{
+	-fx-font-size:18.0px;
+
+}
+
+.card-view{
+	-fx-background-color: #BFACE2;
+	-fx-background-radius: 12px;
+
+}
+
+.label{
+	-fx-font-size: 14px;
+	-fx-text-fill: #282A3A;
+}
